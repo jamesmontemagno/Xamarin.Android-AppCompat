@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.xamarin.actionbarcompat">
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="18" />
+	<application android:icon="@drawable/ic_launcher" android:label="ActionBarCompat"></application>
+	<!-- We need to be able to download map tiles and access Google Play Services-->
+	<!-- Allow the application to access Google web-based services. -->
+	<!-- Google Maps for Android v2 will cache map tiles on external storage -->
+	<!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+	<!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
