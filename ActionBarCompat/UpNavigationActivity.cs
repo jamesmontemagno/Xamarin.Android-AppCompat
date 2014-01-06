@@ -6,8 +6,12 @@ using Android.Views;
 
 namespace ActionBarCompat
 {
-    [Activity(Label = "UpNavigation", Icon = "@drawable/ic_launcher", Theme = "@style/Theme.AppCompat.Light")]
-    [MetaData("android.support.PARENT_ACTIVITY", Value = "actionbarcompat.MainActivity")]
+    [Activity(Label = "Take Me Home",
+        Icon = "@drawable/ic_launcher",
+        Theme = "@style/Theme.AppCompat.Light")]
+
+    [MetaData("android.support.PARENT_ACTIVITY",
+        Value = "actionbarcompat.MainActivity")]
     public class UpNavigationActivity : ActionBarActivity
     {
         protected override void OnCreate(Bundle bundle)
@@ -26,7 +30,7 @@ namespace ActionBarCompat
         {
             switch (item.ItemId)
             {
-                case Android.Resource.Id.Home:
+                case Resource.Id.home:
                 {
                     var upIntent = NavUtils.GetParentActivityIntent(this);
 					if (NavUtils.ShouldUpRecreateTask(this, upIntent))

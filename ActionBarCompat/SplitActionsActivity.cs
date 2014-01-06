@@ -10,8 +10,12 @@ using Android.Widget;
 
 namespace ActionBarCompat
 {
-    [Activity(UiOptions = UiOptions.SplitActionBarWhenNarrow, Label = "Split Bar", Icon = "@drawable/ic_launcher", Theme = "@style/Theme.AppCompat.Light")]
-    [MetaData ("android.support.UI_OPTIONS", Value = "splitActionBarWhenNarrow")]
+    [Activity(Label = "Split Bar",
+        Icon = "@drawable/ic_launcher",
+        Theme = "@style/Theme.AppCompat.Light")]
+
+    [MetaData ("android.support.UI_OPTIONS",
+        Value = "splitActionBarWhenNarrow")]
     public class SplitActionsActivity : ActionBarActivity
     {
 

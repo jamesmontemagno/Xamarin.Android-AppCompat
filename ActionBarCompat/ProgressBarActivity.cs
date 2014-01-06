@@ -9,7 +9,9 @@ using Android.Widget;
 
 namespace ActionBarCompat
 {
-    [Activity(Label = "My Activity", Theme="@style/Theme.AppCompat.Light", Icon = "@drawable/ic_launcher")]
+    [Activity(Label = "Progress Bar Spins!",
+        Theme="@style/Theme.AppCompat.Light",
+        Icon = "@drawable/ic_launcher")]
     public class ProgressBarActivity : ActionBarActivity
     {
 

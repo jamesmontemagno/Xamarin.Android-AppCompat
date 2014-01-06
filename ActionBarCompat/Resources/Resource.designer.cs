@@ -841,85 +841,91 @@ namespace ActionBarCompat
 			public const int ic_action_content_edit = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_action_content_save = 2130837612;
+			public const int ic_action_content_edit_dark = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_action_rating_good = 2130837613;
+			public const int ic_action_content_save = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_drawer_dark = 2130837614;
+			public const int ic_action_content_save_dark = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_drawer_light = 2130837615;
+			public const int ic_action_rating_good = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_launcher = 2130837616;
+			public const int ic_drawer_dark = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int Icon = 2130837617;
+			public const int ic_drawer_light = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int list_activated_holo = 2130837618;
+			public const int ic_launcher = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int list_focused_customab = 2130837619;
+			public const int Icon = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int list_pressed_customab = 2130837620;
+			public const int list_activated_holo = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int menu_dropdown_panel_customab = 2130837621;
+			public const int list_focused_customab = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int progress_bg_customab = 2130837622;
+			public const int list_pressed_customab = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int progress_horizontal_customab = 2130837623;
+			public const int menu_dropdown_panel_customab = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int progress_primary_customab = 2130837624;
+			public const int progress_bg_customab = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int progress_secondary_customab = 2130837625;
+			public const int progress_horizontal_customab = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int selectable_background_customab = 2130837626;
+			public const int progress_primary_customab = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int spinner_ab_default_customab = 2130837627;
+			public const int progress_secondary_customab = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int spinner_ab_disabled_customab = 2130837628;
+			public const int selectable_background_customab = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int spinner_ab_focused_customab = 2130837629;
+			public const int spinner_ab_default_customab = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int spinner_ab_pressed_customab = 2130837630;
+			public const int spinner_ab_disabled_customab = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int spinner_background_ab_customab = 2130837631;
+			public const int spinner_ab_focused_customab = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int tab_indicator_ab_customab = 2130837632;
+			public const int spinner_ab_pressed_customab = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int tab_selected_customab = 2130837633;
+			public const int spinner_background_ab_customab = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int tab_selected_focused_customab = 2130837634;
+			public const int tab_indicator_ab_customab = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int tab_selected_pressed_customab = 2130837635;
+			public const int tab_selected_customab = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int tab_unselected_customab = 2130837636;
+			public const int tab_selected_focused_customab = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int tab_unselected_focused_customab = 2130837637;
+			public const int tab_selected_pressed_customab = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int tab_unselected_pressed_customab = 2130837638;
+			public const int tab_unselected_customab = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int tab_unselected_focused_customab = 2130837639;
+			
+			// aapt resource value: 0x7f020088
+			public const int tab_unselected_pressed_customab = 2130837640;
 			
 			static Drawable()
 			{
@@ -958,8 +964,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f05001b
 			public const int action_context_bar = 2131034139;
 			
-			// aapt resource value: 0x7f050047
-			public const int action_edit = 2131034183;
+			// aapt resource value: 0x7f05004c
+			public const int action_edit = 2131034188;
 			
 			// aapt resource value: 0x7f050016
 			public const int action_menu_divider = 2131034134;
@@ -976,11 +982,20 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050022
 			public const int action_mode_close_button = 2131034146;
 			
-			// aapt resource value: 0x7f050048
-			public const int action_save = 2131034184;
+			// aapt resource value: 0x7f05004d
+			public const int action_save = 2131034189;
 			
-			// aapt resource value: 0x7f050049
-			public const int action_share = 2131034185;
+			// aapt resource value: 0x7f05004e
+			public const int action_save2 = 2131034190;
+			
+			// aapt resource value: 0x7f05004f
+			public const int action_save3 = 2131034191;
+			
+			// aapt resource value: 0x7f050050
+			public const int action_save4 = 2131034192;
+			
+			// aapt resource value: 0x7f050051
+			public const int action_share = 2131034193;
 			
 			// aapt resource value: 0x7f050023
 			public const int activity_chooser_view_content = 2131034147;
@@ -991,8 +1006,20 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050011
 			public const int beginning = 2131034129;
 			
+			// aapt resource value: 0x7f050045
+			public const int button = 2131034181;
+			
 			// aapt resource value: 0x7f050042
-			public const int button = 2131034178;
+			public const int button_dark = 2131034178;
+			
+			// aapt resource value: 0x7f050043
+			public const int button_dark_ab = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int button_dark_custom = 2131034180;
+			
+			// aapt resource value: 0x7f050046
+			public const int button_nav_drawer = 2131034182;
 			
 			// aapt resource value: 0x7f05002b
 			public const int checkbox = 2131034155;
@@ -1000,8 +1027,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f05000d
 			public const int collapseActionView = 2131034125;
 			
-			// aapt resource value: 0x7f050044
-			public const int content_frame = 2131034180;
+			// aapt resource value: 0x7f050049
+			public const int content_frame = 2131034185;
 			
 			// aapt resource value: 0x7f050026
 			public const int default_activity_button = 2131034150;
@@ -1012,8 +1039,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050008
 			public const int disableHome = 2131034120;
 			
-			// aapt resource value: 0x7f050043
-			public const int drawer_layout = 2131034179;
+			// aapt resource value: 0x7f050048
+			public const int drawer_layout = 2131034184;
 			
 			// aapt resource value: 0x7f05000f
 			public const int dropdown = 2131034127;
@@ -1045,8 +1072,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050025
 			public const int image = 2131034149;
 			
-			// aapt resource value: 0x7f050045
-			public const int left_drawer = 2131034181;
+			// aapt resource value: 0x7f05004a
+			public const int left_drawer = 2131034186;
 			
 			// aapt resource value: 0x7f050031
 			public const int left_icon = 2131034161;
@@ -1056,6 +1083,9 @@ namespace ActionBarCompat
 			
 			// aapt resource value: 0x7f050027
 			public const int list_item = 2131034151;
+			
+			// aapt resource value: 0x7f050047
+			public const int main_text = 2131034183;
 			
 			// aapt resource value: 0x7f050012
 			public const int middle = 2131034130;
@@ -1069,8 +1099,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050000
 			public const int normal = 2131034112;
 			
-			// aapt resource value: 0x7f050046
-			public const int progress_button = 2131034182;
+			// aapt resource value: 0x7f05004b
+			public const int progress_button = 2131034187;
 			
 			// aapt resource value: 0x7f050034
 			public const int progress_circular = 2131034164;
@@ -1276,13 +1306,16 @@ namespace ActionBarCompat
 			public const int ProgressBar = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int SplitActions = 2130903070;
+			public const int Share = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int support_simple_spinner_dropdown_item = 2130903071;
+			public const int SplitActions = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int UpNavigation = 2130903072;
+			public const int support_simple_spinner_dropdown_item = 2130903072;
+			
+			// aapt resource value: 0x7f030021
+			public const int UpNavigation = 2130903073;
 			
 			static Layout()
 			{
@@ -1301,10 +1334,13 @@ namespace ActionBarCompat
 			public const int main_menu = 2131492864;
 			
 			// aapt resource value: 0x7f0c0001
-			public const int main_menu_share = 2131492865;
+			public const int main_menu_custom = 2131492865;
 			
 			// aapt resource value: 0x7f0c0002
-			public const int main_menu_text = 2131492866;
+			public const int main_menu_dark = 2131492866;
+			
+			// aapt resource value: 0x7f0c0003
+			public const int main_menu_share = 2131492867;
 			
 			static Menu()
 			{

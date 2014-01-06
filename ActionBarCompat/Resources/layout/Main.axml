@@ -4,9 +4,33 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="12dp">
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Next" />
+  <Button
+       android:id="@+id/button_dark"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Holo Theme" />
+  <Button
+       android:id="@+id/button_dark_ab"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Dark Action Bar" />
+  <Button
+      android:id="@+id/button_dark_custom"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Customized Action Bar" />
+  <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next: Share Activity" />
+  
+  <LinearLayout android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"/>
+  <Button
+    android:id="@+id/button_nav_drawer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Navigation Drawer" />
 </LinearLayout>

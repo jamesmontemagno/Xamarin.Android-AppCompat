@@ -19,7 +19,7 @@
 
 <resources>
 
-    <style name="Theme.Customab" parent="@style/Theme.AppCompat.Light">
+    <style name="Theme.Customab" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarItemBackground">@drawable/selectable_background_customab</item>
         <item name="popupMenuStyle">@style/PopupMenu.Customab</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.Customab</item>
@@ -30,34 +30,36 @@
         <item name="actionModeSplitBackground">@drawable/cab_background_bottom_customab</item>
         <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Customab</item>
 
-        
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Customab.Widget</item>
+
     </style>
 
-    <style name="ActionBar.Solid.Customab" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+    <style name="ActionBar.Solid.Customab" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="background">@drawable/ab_solid_customab</item>
         <item name="backgroundStacked">@drawable/ab_stacked_solid_customab</item>
         <item name="backgroundSplit">@drawable/ab_bottom_solid_customab</item>
         <item name="progressBarStyle">@style/ProgressBar.Customab</item>
     </style>
 
-    <style name="ActionBar.Transparent.Customab" parent="@style/Widget.AppCompat.Light.ActionBar">
+    <style name="ActionBar.Transparent.Customab" parent="@style/Widget.AppCompat.ActionBar">
         <item name="background">@drawable/ab_transparent_customab</item>
         <item name="progressBarStyle">@style/ProgressBar.Customab</item>
     </style>
 	
-    <style name="PopupMenu.Customab" parent="@style/Widget.AppCompat.Light.PopupMenu">	
+    <style name="PopupMenu.Customab" parent="@style/Widget.AppCompat.PopupMenu">	
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_customab</item>	
     </style>
 	
-    <style name="DropDownListView.Customab" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+    <style name="DropDownListView.Customab" parent="@style/Widget.AppCompat.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_customab</item>
     </style>
 
-    <style name="ActionBarTabStyle.Customab" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+    <style name="ActionBarTabStyle.Customab" parent="@style/Widget.AppCompat.ActionBar.TabView">
         <item name="android:background">@drawable/tab_indicator_ab_customab</item>
     </style>
 	
-    <style name="DropDownNav.Customab" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+    <style name="DropDownNav.Customab" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
         <item name="android:background">@drawable/spinner_background_ab_customab</item>
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_customab</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_customab</item>
@@ -67,7 +69,7 @@
         <item name="android:progressDrawable">@drawable/progress_horizontal_customab</item>
     </style>
     
-    <style name="ActionButton.CloseMode.Customab" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+    <style name="ActionButton.CloseMode.Customab" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
         <item name="android:background">@drawable/btn_cab_done_customab</item>
     </style>
     

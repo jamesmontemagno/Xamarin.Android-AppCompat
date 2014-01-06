@@ -2,13 +2,14 @@ using ActionBarCompat.DrawerLayout.Helpers;
 using Android.App;
 using Android.Content.Res;
 using Android.OS;
+using Android.Support.V4.View;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 
 namespace ActionBarCompat.DrawerLayout
 {
-    [Activity(Label = "Drawer Layout", Theme = "@style/AppTheme", Icon = "@drawable/ic_launcher")]
+    [Activity(Label = "Drawer Layout", Theme = "@style/Theme.AppCompat.Light", Icon = "@drawable/ic_launcher")]
     public class DrawerLayoutActivity : ActionBarActivity
     {
         private MyActionBarDrawerToggle drawerToggle;
@@ -37,7 +38,7 @@ namespace ActionBarCompat.DrawerLayout
             drawerList.ItemClick += (sender, args) => ListItemClicked(args.Position);
 
 
-            drawer.SetDrawerShadow(Resource.Drawable.drawer_shadow_dark, (int)GravityFlags.Start);
+            drawer.SetDrawerShadow(Resource.Drawable.drawer_shadow_dark, GravityCompat.End); //start
 
 
 
@@ -108,10 +109,10 @@ namespace ActionBarCompat.DrawerLayout
                     fragment = new Fragment1();
                     break;
                 case 1:
-                    fragment = new Fragment1();
+                    fragment = new Fragment2();
                     break;
                 case 2:
-                    fragment = new Fragment1();
+                    fragment = new Fragment3();
                     break;
             }
 
