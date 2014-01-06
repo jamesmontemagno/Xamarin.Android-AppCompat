@@ -19,6 +19,7 @@ namespace ActionBarCompat
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Customized);
+            
             var setting = Android.Support.V7.App.ActionBar.NavigationModeTabs;
             SupportActionBar.NavigationMode = setting;
 
@@ -68,7 +69,11 @@ namespace ActionBarCompat
             if (fragment == null)
             {
                 fragment = new SampleTabFragment();
-                ft.Add(Android.Resource.Id.Content, fragment, "tag");
+                var id = (int)Build.VERSION.SdkInt >= 14 ?
+                Android.Resource.Id.Content :
+                Resource.Id.action_bar_activity_content;
+
+                ft.Add(id, fragment, "tag");
             }
             else
             {
