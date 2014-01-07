@@ -4,17 +4,18 @@ Xamarin.Android App Compat
 This is source code from our live webinar on: Backwards Compatibility in Xamarin.Android Made Easy
 
 Code by:
+
 Jérémie Laval
-Twitter: https://twitter.com/jeremie_laval
-GitHub: https://github.com/garuma
-Blog: http://neteril.org/
+* Twitter: https://twitter.com/jeremie_laval
+* GitHub: https://github.com/garuma
+* Blog: http://neteril.org/
 
 and
 
 James Montemagno
-Twitter: https://twitter.com/JamesMontemagno
-GitHub: https://github.com/JamesMontemagno
-Blog: http://www.MotzCod.es
+* Twitter: https://twitter.com/JamesMontemagno
+* GitHub: https://github.com/JamesMontemagno
+* Blog: http://www.MotzCod.es
 
 
 ## Setup
