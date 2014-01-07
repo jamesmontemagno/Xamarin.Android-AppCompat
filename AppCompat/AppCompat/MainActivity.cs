@@ -18,7 +18,6 @@ namespace AppCompat
 	{
 		ListFragment list;
 		ArrayAdapter adapter;
-
 		ViewPagerFragment viewPager;
 
 		protected override void OnCreate (Bundle bundle)
@@ -35,19 +34,19 @@ namespace AppCompat
 				.Add (Resource.Id.fragmentHost, list)
 				.Commit ();
 
-			LoadList ();
+			//LoadList ();
 
 			var btn = FindViewById<Button> (Resource.Id.btn);
-//			btn.Text = "Switch View";
+			btn.Text = "Switch View";
 			btn.Click += (sender, e) => {
-				list.SetEmptyText ("The monkeys ran off");
-				adapter.Clear ();
-//				viewPager = new ViewPagerFragment ();
-//				SupportFragmentManager
-//					.BeginTransaction ()
-//					.Replace (Resource.Id.fragmentHost, viewPager)
-//					.Commit ();
-//				((View)sender).Visibility = ViewStates.Gone;
+//				list.SetEmptyText ("The monkeys ran off");
+//				adapter.Clear ();
+				viewPager = new ViewPagerFragment ();
+				SupportFragmentManager
+					.BeginTransaction ()
+					.Replace (Resource.Id.fragmentHost, viewPager)
+					.Commit ();
+				((View)sender).Visibility = ViewStates.Gone;
 			};
 		}
 
