@@ -964,8 +964,8 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f05001b
 			public const int action_context_bar = 2131034139;
 			
-			// aapt resource value: 0x7f05004c
-			public const int action_edit = 2131034188;
+			// aapt resource value: 0x7f05004f
+			public const int action_edit = 2131034191;
 			
 			// aapt resource value: 0x7f050016
 			public const int action_menu_divider = 2131034134;
@@ -982,20 +982,20 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050022
 			public const int action_mode_close_button = 2131034146;
 			
-			// aapt resource value: 0x7f05004d
-			public const int action_save = 2131034189;
-			
-			// aapt resource value: 0x7f05004e
-			public const int action_save2 = 2131034190;
-			
-			// aapt resource value: 0x7f05004f
-			public const int action_save3 = 2131034191;
-			
 			// aapt resource value: 0x7f050050
-			public const int action_save4 = 2131034192;
+			public const int action_save = 2131034192;
 			
 			// aapt resource value: 0x7f050051
-			public const int action_share = 2131034193;
+			public const int action_save2 = 2131034193;
+			
+			// aapt resource value: 0x7f050052
+			public const int action_save3 = 2131034194;
+			
+			// aapt resource value: 0x7f050053
+			public const int action_save4 = 2131034195;
+			
+			// aapt resource value: 0x7f050054
+			public const int action_share = 2131034196;
 			
 			// aapt resource value: 0x7f050023
 			public const int activity_chooser_view_content = 2131034147;
@@ -1044,6 +1044,9 @@ namespace ActionBarCompat
 			
 			// aapt resource value: 0x7f05000f
 			public const int dropdown = 2131034127;
+			
+			// aapt resource value: 0x7f05004e
+			public const int editText1 = 2131034190;
 			
 			// aapt resource value: 0x7f050036
 			public const int edit_query = 2131034166;
@@ -1099,6 +1102,9 @@ namespace ActionBarCompat
 			// aapt resource value: 0x7f050000
 			public const int normal = 2131034112;
 			
+			// aapt resource value: 0x7f05004c
+			public const int progressBar1 = 2131034188;
+			
 			// aapt resource value: 0x7f05004b
 			public const int progress_button = 2131034187;
 			
@@ -1146,6 +1152,9 @@ namespace ActionBarCompat
 			
 			// aapt resource value: 0x7f050041
 			public const int search_voice_btn = 2131034177;
+			
+			// aapt resource value: 0x7f05004d
+			public const int seekBar1 = 2131034189;
 			
 			// aapt resource value: 0x7f05002c
 			public const int shortcut = 2131034156;
