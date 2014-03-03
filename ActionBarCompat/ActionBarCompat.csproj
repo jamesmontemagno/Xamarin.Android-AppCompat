@@ -91,7 +91,6 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\NavDrawerFrag.axml" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\Thumbs.db" />
     <AndroidResource Include="Resources\layout\Share.axml" />
   </ItemGroup>
   <ItemGroup>
