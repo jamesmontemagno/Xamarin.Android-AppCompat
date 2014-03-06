@@ -63,6 +63,7 @@
     <Compile Include="DrawerLayout\DrawerLayoutActivity.cs" />
     <Compile Include="DrawerLayout\Helpers\Fragment1.cs" />
     <Compile Include="DrawerLayout\Helpers\MyActionBarDrawerToggle.cs" />
+    <Compile Include="SearchActivity.cs" />
     <Compile Include="ThemeDarkActivity.cs" />
     <Compile Include="ThemeDarkABActivity.cs" />
     <Compile Include="ShareActivity.cs" />
@@ -557,5 +558,8 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\main_menu_custom.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\menu_search.xml" />
   </ItemGroup>
 </Project>

@@ -26,7 +26,8 @@ namespace ActionBarCompat
 			SetContentView (Resource.Layout.Main);
 
             var next = new Intent(this, typeof(ShareActivity));
-            FindViewById<Button>(Resource.Id.button).Click += (sender, args) => StartActivity(next);
+            FindViewById<Button>(Resource.Id.button_share).Click += (sender, args) => StartActivity(next);
+            FindViewById<Button>(Resource.Id.button_search).Click += (sender, args) => StartActivity(new Intent(this, typeof(SearchActivity)));
             FindViewById<Button>(Resource.Id.button_dark).Click += (sender, args) => StartActivity(new Intent(this, typeof(ThemeDarkMainActivity)));
             FindViewById<Button>(Resource.Id.button_dark_ab).Click += (sender, args) => StartActivity(new Intent(this, typeof(ThemeDarkABMainActivity)));
             FindViewById<Button>(Resource.Id.button_dark_custom).Click += (sender, args) => StartActivity(new Intent(this, typeof(CustomizedActivity)));

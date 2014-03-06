@@ -7,6 +7,7 @@
 	      android:title="@string/edit"
 	      android:icon="@drawable/ic_action_content_edit"
 	      app:showAsAction="ifRoom"/>
+  
    <item android:id="@+id/action_save"
           android:title="@string/save"
           android:icon="@drawable/ic_action_content_save"
